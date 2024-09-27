@@ -5,10 +5,10 @@ if __name__ == "__main__":
     babel.locale = "en"
     en_text = _("File not found. There is nothing here")
     print(en_text)
-    babel.locale = "fa"
+    babel.locale = "zh_CN"
     fa_text = _("File not found. There is nothing here")
     print(fa_text)
-    babel.locale = "fr"
+    babel.locale = "ja"
     fr_text = _("File not found. There is nothing here")
     print(fr_text)
     babel.locale = "es"
